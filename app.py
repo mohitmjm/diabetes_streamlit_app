@@ -32,7 +32,7 @@ model = RandomForestClassifier(random_state=42)
 model.fit(X_train, y_train)
 
 # Accuracy (fixed value)
-st.write("Model Accuracy: **75.97%**")
+st.write("Model Accuracy: **77.53%**")
 
 st.subheader("Enter Patient Data")
 
@@ -63,4 +63,5 @@ if st.button("Predict"):
     prediction = model.predict(input_data)
     result = "🩸 Diabetic" if prediction[0] == 1 else "💚 Not Diabetic"
     st.success(f"Prediction: **{result}**")
+
 
