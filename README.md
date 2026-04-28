@@ -4,6 +4,7 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.x-FF4B4B?logo=streamlit)](https://streamlit.io)
 [![XGBoost](https://img.shields.io/badge/XGBoost-Enabled-orange)](https://xgboost.readthedocs.io)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+[![Live App](https://img.shields.io/badge/Live%20App-Streamlit-FF4B4B?logo=streamlit)](https://diabetesappapp-ac8kqdm6bbm77gwikmt2kv.streamlit.app/)
 
 A production-grade machine learning web application that predicts diabetes risk using a **Stacking Ensemble of 6 models** combined with SMOTE oversampling, advanced feature engineering, and a personalised health summary report.
 
@@ -11,7 +12,9 @@ A production-grade machine learning web application that predicts diabetes risk 
 
 ## 🚀 Live Demo
 
-> Run locally with `streamlit run app.py` → open [http://localhost:8501](http://localhost:8501)
+**🌐 Deployed App:** [https://diabetesappapp-ac8kqdm6bbm77gwikmt2kv.streamlit.app/](https://diabetesappapp-ac8kqdm6bbm77gwikmt2kv.streamlit.app/)
+
+> Or run locally with `streamlit run app.py` → open [http://localhost:8501](http://localhost:8501)
 
 ---
 
